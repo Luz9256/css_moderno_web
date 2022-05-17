@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+.shadow > nav > ul{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #51828f;
+    justify-content: space-around;
+}
+img {
+    width: 30px;
+}
+
+.interactable {
+    cursor: pointer;
+    transition: all ease-out 250ms;
+  }
+
+.interactable:hover {
+    padding: 10px;
+    border-bottom: 3px solid #a2a349;
+}
